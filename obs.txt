@@ -1,0 +1,94 @@
+"Falsy":
+0 -0 NaN
+""
+false
+null
+undefined
+
+---------------------------------------------------------------------------------------
+The default return value of an function is undefined
+When a function is executed, an local execution context is added to the context
+
+
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Call Stack:
+	It tracks which execution context we are in -that is, what function is currently being run
+	where is top on my Call Stack is where the thread is, is where js is running
+	push: To add an execution context to the stack.
+	pop: to remove the e.c. from the context
+
+Variable environment : local memory
+
+---------------------------------------------------------------------------------------
+
+void is an operator that turns everything that comes after it to become undefined
+void 42
+
+
+---------------------------------------------------------------------------------------
+
+functioon foo ( parameters ) {
+	console.log(parameters)
+}
+
+
+foo(argument) 
+
+
+
+---------------------------------------------------------------------------------------
+
+<input type="text" name="country" value="Norway" readonly><br>
+The readonly attribute is a boolean attribute.
+When present, it specifies that an input field is read-only.
+
+---------------------------------------------------------------------------------------
+
+sempre usar só response quando tiver retorno
+
+quando um component é um modal ou um dialog, além de adicionar as declararions do NgModule, devemeos adicionar aos entryComponents
+
+---------------------------------------------------------------------------------------
+Mongo: mongod
+
+NodeJS: cd api -> npm run api
+
+Angular: ng serve
+
+
+---------------------------------------------------------------------------------------
+
+git push origin v2_colaboradores
+
+---------------------------------------------------------------------------------------
+
+no estudio 3t criar nova db, renomear com o nome  definido em database.js : db_obrasnet_v2
+
+Para testar o backend com o postman só precisa rodar o api
+
+ng g c
+---------------------------------------------------------------------------------------
+			console.log('erro: ', erro);
+			console.log('usuarios: ', usuarios);
+			console.log(usuarios.length);
+
+---------------------------------------------------------------------------------------
+dentro da tag input  [required]="clienteForm.controls.tipo_pessoa.value == 'PESSOA_FISICA'"
+
+---------------------------------------------------------------------------------------
+
+checklist de requireds: 
+- no html deve conter o required e o mat-error
+- No backend/ services: deve conter as verficações necessarias no metodo que está trabalhando ( criar ou editar?) ver clientes razao_social
+
+- talvez form-validatores.te formIsValid
+
+
+---------------------------------------------------------------------------------------
+
+
+Verificar: 
+*ngIf="clienteForm.controls.email.hasError('email')">E-mail inválido</mat-error>
+
