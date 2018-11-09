@@ -15,6 +15,6 @@ function reduce(array, callback, initialValue) {
     }, acumulator)
     return acumulator
 }
-
+sds
 console.log(reduce([7, 2, 3], sumOfElements, 0));
 
