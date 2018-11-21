@@ -4,14 +4,13 @@
 false
 null
 undefined
-
 ---------------------------------------------------------------------------------------
 The default return value of an function is undefined
 When a function is executed, an local execution context is added to the context
 
 
 ---------------------------------------------------------------------------------------
-
+What define what data will be avaiable is not where the function is called, is where it is defined
 ---------------------------------------------------------------------------------------
 Call Stack:
 	It tracks which execution context we are in -that is, what function is currently being run
@@ -46,9 +45,9 @@ When present, it specifies that an input field is read-only.
 
 ---------------------------------------------------------------------------------------
 
-sempre usar só response quando tiver retorno
+sempre usar sï¿½ response quando tiver retorno
 
-quando um component é um modal ou um dialog, além de adicionar as declararions do NgModule, devemeos adicionar aos entryComponents
+quando um component ï¿½ um modal ou um dialog, alï¿½m de adicionar as declararions do NgModule, devemeos adicionar aos entryComponents
 
 ---------------------------------------------------------------------------------------
 Mongo: mongod
@@ -66,7 +65,7 @@ git push origin v2_colaboradores
 
 no estudio 3t criar nova db, renomear com o nome  definido em database.js : db_obrasnet_v2
 
-Para testar o backend com o postman só precisa rodar o api
+Para testar o backend com o postman sï¿½ precisa rodar o api
 
 ng g c
 ---------------------------------------------------------------------------------------
@@ -81,7 +80,7 @@ dentro da tag input  [required]="clienteForm.controls.tipo_pessoa.value == 'PESS
 
 checklist de requireds: 
 - no html deve conter o required e o mat-error
-- No backend/ services: deve conter as verficações necessarias no metodo que está trabalhando ( criar ou editar?) ver clientes razao_social
+- No backend/ services: deve conter as verficaï¿½ï¿½es necessarias no metodo que estï¿½ trabalhando ( criar ou editar?) ver clientes razao_social
 
 - talvez form-validatores.te formIsValid
 
@@ -90,5 +89,5 @@ checklist de requireds:
 
 
 Verificar: 
-*ngIf="clienteForm.controls.email.hasError('email')">E-mail inválido</mat-error>
+*ngIf="clienteForm.controls.email.hasError('email')">E-mail invï¿½lido</mat-error>
 

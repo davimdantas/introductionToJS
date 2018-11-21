@@ -1,7 +1,6 @@
 function objOfMatches(passed) {
 
     callBack = arguments[2]
-    // console.log(callBack)
     var objCreated = {}
     for (i = 0; i < arguments[1].length; i++) {
         if (callBack(arguments[1][i]) == 1) {

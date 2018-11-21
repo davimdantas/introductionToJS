@@ -1,0 +1,23 @@
+* {
+    font-family: Georgia;
+}
+
+body {
+    background-color: rgb(125. 38, 5);
+}
+  
+  section {
+    padding-top: 0.5em;
+  }
+  
+  button {
+    width: 200px;
+    line-height: 2;
+  }
+  
+  code {
+    font-family: monospace;
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: #ccc;
+  }

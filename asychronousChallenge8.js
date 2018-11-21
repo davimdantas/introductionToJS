@@ -13,10 +13,8 @@ Http.onreadystatechange = function () {
 }
 
 function forEach(objectFromGet) {
-    for (let i = 0; i < objectFromGet.length; i++){
-        if (objectFromGet[i].venue.country == "United States") {
-            dataHandler(objectFromGet[i].venue.name)
-        }
+    for(let i = 0; i < objectFromGet.length; i++){
+        dataHandler(objectFromGet[i].venue.name)
     }
 }
 
@@ -24,7 +22,7 @@ function forEach(objectFromGet) {
 const unorderedList = document.createElement("ul")
 setTimeout(
     () => {
-        document.getElementById("ch4").appendChild(unorderedList)
+        document.getElementById("ch3").appendChild(unorderedList)
     }, 0
 ) 
 
@@ -35,5 +33,5 @@ function dataHandler(objectCreatead) {
         let itemInfo = document.createTextNode(objectCreatead)
         listItem.appendChild(itemInfo)
         unorderedList.appendChild(listItem)
-        document.getElementById("ch4").appendChild(unorderedList)
+        document.getElementById("ch3").appendChild(unorderedList)
 }
